@@ -1,0 +1,84 @@
+[
+	{ "keys": ["ctrl+u"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	{ "keys": ["ctrl+g"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{ "keys": ["ctrl+m"], "command": "toggle_side_bar" },
+	{
+		"keys": ["ctrl+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+3"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.33, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+4"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+8"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+	{
+		"keys": ["ctrl+9"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.33, 0.66, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+		}
+	},
+	{
+		"keys": ["ctrl+5"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells":
+			[
+				[0, 0, 1, 1], [1, 0, 2, 1],
+				[0, 1, 1, 2], [1, 1, 2, 2]
+			]
+		}
+	},
+	{ "keys": ["ctrl+left"], "command": "select_by_index", "args": { "index": 2 } },
+	{ "keys": ["ctrl+right"], "command": "select_by_index", "args": { "index": 3 } },
+	{ "keys": ["ctrl+alt+i"], "command": "alignment" },
+]
