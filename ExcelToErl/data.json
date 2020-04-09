@@ -1,0 +1,57 @@
+
+[
+	{
+		"ErlName":"base_goods.erl",
+		"RecordFiles":["bag.hrl"],
+		"ExcelFuncs":[
+			{
+				"ExcelName":"goods.xlsx",
+				"FuncName": "get",
+				"Call": "CreateLine",
+				"Keys":["id"],
+				"RecordName":"base_goods"
+			},
+			{
+				"ExcelName":"goods.xlsx",
+				"FuncName": "get_type_lv_ids",
+				"Call": "CreateIds",
+				"Keys":["type", "subtype", "lv"],
+				"Fields":["id"]
+			},
+			{
+				"ExcelName":"goods.xlsx",
+				"FuncName": "get_ids",
+				"Call": "CreateIds",
+				"Fields":["id"]
+			},
+			{
+				"ExcelName":"goods.xlsx",
+				"FuncName": "getMaxId",
+				"Call": "CreateMax",
+				"Fields":["id"]
+			},
+			{
+				"ExcelName":"goods_compose.xlsx",
+				"FuncName": "get_base_compose",
+				"Call": "CreateLine",
+				"Keys":["goods_base_id"],
+				"Fields":["num", "to_goods_base_id"]
+			},
+			{
+				"ExcelName":"goods_gift_template.xlsx",
+				"FuncName": "get_goods_gift_template",
+				"Call": "CreateLine",
+				"Keys":["id"],
+				"RecordName":"base_goods_gift_template",
+				"Atoms":["rate_list"]
+			},
+			{
+				"ExcelName":"goods_gift_gold.xlsx",
+				"FuncName": "get_lv_get_gift_gold",
+				"Call": "SomeToOne",
+				"Keys":["lv"],
+				"Fields":["gold"]
+			}
+		]
+	}
+]

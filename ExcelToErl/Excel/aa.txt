@@ -1,0 +1,1 @@
+get(id = 1004)->#goods{id = 1004,name = "孙子兵法",type = 1,subtype = 1,compose = 0,use = 0,lv = 0,attr_template_id = 0,effect = [30000],exchange = 0,gift_template_id = 0};
